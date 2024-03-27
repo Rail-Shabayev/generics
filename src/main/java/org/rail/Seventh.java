@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
-class Fibonacci implements Iterable<Integer> {
+class Fibonacci implements Iterable<Integer>, Thirteenth.Generator {
     private int count = 0;
     private int n = 0;
 
