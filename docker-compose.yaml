@@ -1,0 +1,5 @@
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+
